@@ -1,0 +1,119 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("back.jpeg");
+	background-repeat: repeat;
+}
+
+#container {
+	position: relative;
+	height: 100%;
+	margin: auto;
+	background-color: rgba(255, 198, 25, 0.5);
+}
+
+.mainPageButtons {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #453619;
+	background-color: #ad935f;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+#label {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #453619;
+}
+
+.gamePageButtons {
+	padding-left: 10%;
+	padding-right: 10%;
+  margin-right: 3%;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	background-color: #94825f;
+	color: #453619;
+	overflow: hidden;
+	border-radius: 10%;
+}
+
+.scoreButtons {
+  padding-left: 10%;
+	padding-right: 10%;
+	top: 8%;
+  margin-right: 3%;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	background-color: #94825f;
+	color: #453619;
+	overflow: hidden;
+	border-radius: 10%;
+}
+
+.inside {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 100%;
+}
+
+.gamePageButtons:hover {
+	background-color: #8c7951;
+}
+
+.mainPageButtons:hover {
+	background-color: #8c7951;
+}
+
+.canvas {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rec {
+	position: absolute;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	background-color: #94825fb0;
+	border-radius: 10%;
+	color: #453619;
+}
+
+.back {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	background-color: #94825f;
+	color: #453619;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.back:hover {
+	background-color: #8c7951;
+}
