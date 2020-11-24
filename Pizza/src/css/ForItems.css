@@ -1,0 +1,122 @@
+input:active, input:focus {
+    outline: none;
+  }
+
+.Page{
+    display: grid;
+    grid-template-rows: auto; 
+}
+
+.PizzaPage{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pikes{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mohentohens{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.SaladsPage{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.SaucesPage{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.DessertPage{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.DrinksPage{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.filterButton{
+    margin: 20px;
+    font: bold 20px Helvetica,sans-serif;
+    color: #ff5200;
+    border-radius: 10px;
+    border: 0;
+    background: #e9e9e9;
+    padding: 7px 12px 8px;
+}
+
+.filter{
+    text-align: center;
+}
+
+.filterButton:hover{
+    color: white;
+    background: #16bc00;
+}
+
+.filterButton.selected{
+    background: #277dff;
+    color: white;
+}
+
+
+@media screen and (max-width: 1023px){
+    .PizzaPage{
+        grid-template-columns: repeat(2, 1fr);
+    }   
+ 
+    .pikes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .mohentohens{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .SaladsPage{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .SaucesPage{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .DessertPage{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .DrinksPage{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .PizzaPage{
+        grid-template-columns: repeat(1, 1fr);
+    }  
+
+    .pikes{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .mohentohens{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .SaladsPage{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .SaucesPage{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .DessertPage{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .DrinksPage{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
